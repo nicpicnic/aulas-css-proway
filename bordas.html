@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            margin-bottom: 16px;
+        }
+
+        .borda-simples {
+            border: solid seagreen 3px;
+        }
+
+        .borda-esquerda {
+            border-left: solid 16px #8e7b45;
+        }
+
+        .borda-arredondada {
+            border-radius: 16px;
+        }
+
+        .borda-circular {
+            border-radius: 50%;
+        }
+
+        .borda-doida {
+            border-radius: 0 25% 10% 50%;
+        }
+
+        button {
+            border: none;
+            border-radius: 8px;
+            background-color: crimson;
+            color: #fff;
+            font-size: 24px;
+            padding: 8px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Exemplos de bordas</h1>
+
+    <div></div>
+    <div class="borda-simples"></div>
+    <div class="borda-esquerda"></div>
+    <div class="borda-arredondada"></div>
+    <div class="borda-circular"></div>
+    <div class="borda-doida"></div>
+
+    <button>Cadastrar</button>
+    
+</body>
+</html>
