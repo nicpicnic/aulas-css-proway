@@ -1,0 +1,38 @@
+<html lang="pt-br"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Document</title><style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.principal {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card {
+    width: 100%;
+    border: solid 3px chocolate;
+    padding: 24px;
+    text-align: center;
+}
+
+@media (min-width: 500px) {
+    .principal {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 900px) {
+    .principal {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .principal {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+</style></head><body><div class="principal"><div class="card">Conteúdo do post com texto grande</div><div class="card">Conteúdo do post com texto grande</div><div class="card">Conteúdo do post com texto grande</div><div class="card">Conteúdo do post com texto grande</div><div class="card">Conteúdo do post com texto grande</div></div></body></html>
