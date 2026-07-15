@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: crimson;
+        }
+
+        .conteudo {
+            background-color: #ff9cb0;
+            width: 70%;
+            height: 100vh;
+            margin: auto;
+            padding-top: 50px;
+        }
+
+        .sessao-menu {
+            width: 350px;
+            margin: auto;
+        }
+
+        .sessao-botoes-acao {
+            margin-top: 50px;
+            padding-left: 32px;
+        }
+
+        .sessao-tabela {
+            margin-top: 50px;
+            padding: 0 32px;
+        }
+
+        .btn-menu {
+            background-color: crimson;
+            color: #fff;
+            padding: 8px;
+            border: none;
+            min-width: 100px;
+            font-size: 24px;
+        }
+
+        .btn-acao {
+            background-color: crimson;
+            color: #fff;
+            padding: 4px 8px;
+            border: none;
+            min-width: 100px;
+            border-radius: 8px;
+        }
+
+        .btn-tabela {
+            border: none;
+            background-color: #a2112e;
+            color: #fff;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: solid 1px black;
+            padding: 8px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="conteudo">
+
+        <div class="sessao-menu">
+            <button class="btn-menu">Home</button>
+            <button class="btn-menu">Produtos</button>
+            <button class="btn-menu">Cadastros</button>
+        </div>
+
+        <div class="sessao-botoes-acao">
+            <button class="btn-acao">Novo</button>
+            <button class="btn-acao">Filtro</button>
+        </div>
+
+        <div class="sessao-tabela">
+            <table>
+                <tr>
+                    <th>Produto</th>
+                    <th>Imagem</th>
+                    <th>Ações</th>
+                </tr>
+                <tr>
+                    <td>Notebook Dell 15 pro</td>
+                    <td>
+                        <img src="" alt="">
+                    </td>
+                    <td>
+                        <button class="btn-tabela">Editar</button>
+                        <button class="btn-tabela">Excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Notebook Dell 15 pro</td>
+                    <td>
+                        <img src="" alt="">
+                    </td>
+                    <td>
+                        <button class="btn-tabela">Editar</button>
+                        <button class="btn-tabela">Excluir</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Notebook Dell 15 pro</td>
+                    <td>
+                        <img src="" alt="">
+                    </td>
+                    <td>
+                        <button class="btn-tabela">Editar</button>
+                        <button class="btn-tabela">Excluir</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    
+</body>
+</html>
